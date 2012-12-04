@@ -29,7 +29,14 @@ The meat of this script is in the data attributes on the <code>&lt;span&gt;</cod
 
 <h3>3 Breakpoints: 420, 820, &amp; 1100</h3>
 <code>
-&lt;span class="r-img" data-alt="My Alt" data-title="My Title" data-src="[{'bp':'420','url':'http://placehold.it/420x150'},{'bp':'820','url':'http://placehold.it/820x150'},{'bp':'1100','url':'http://placehold.it/1100x150'},]"&gt;&lt;noscript&gt;&lt;img src="http://placehold.it/1100x150" alt=""&gt;&lt;/noscript>&lt;/span&gt;
+&lt;span class="r-img"
+	data-alt="My Alt"
+	data-title="My Title"
+	data-src="[{'bp':'420','url':'http://placehold.it/420x150'},
+						 {'bp':'820','url':'http://placehold.it/820x150'},
+						 {'bp':'1100','url':'http://placehold.it/1100x150'},]"&gt;
+	&lt;noscript&gt;&lt;img src="http://placehold.it/1100x150" alt=""&gt;&lt;/noscript>
+&lt;/span&gt;
 </code>
 
 <h3>7 Breakpoints: 420, 520, 620, 720, 820, 920 &amp; 1020</h3>
