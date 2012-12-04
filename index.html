@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+	<head>
+
+		<!-- META -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="BreakPoint Images - A simple JavaScript plugin to swap images out based on viewport width.">
+		<meta name="author" content="Terrance Pitre">
+
+		<!-- TITLE -->
+		<title>BreakPoint Images</title>
+
+		<!-- CSS -->
+		<style>
+			body {
+				margin: 0;
+			}
+			h1 {
+				font-family: Arial;
+				color: white;
+				margin: 0 0 16px;
+				text-align: center;
+			}
+			.r-img {
+				display: block;
+				text-align: center;
+			}
+			.r-img img {
+				max-width: 100%;
+			}
+			.block {
+				padding: 20px;
+			}
+			.orange {
+			  background-color: orange;
+			}
+			.blue {
+				background-color: blue;
+			}
+			.red {
+				background-color: red;
+			}
+		</style>
+
+	</head>
+
+	<body lang="en">
+
+		<div class="block orange">
+			<h1>3 Breakpoints: 420, 820, &amp; 1100</h1>
+			<span class="r-img" data-alt="My Alt" data-title="My Title" data-src="[{'bp':'420','url':'http://placehold.it/420x150'},{'bp':'820','url':'http://placehold.it/820x150'},{'bp':'1100','url':'http://placehold.it/1100x150'},]"><noscript><img src="http://placehold.it/1100x150" alt=""></noscript></span>
+		</div>
+
+		<div class="block blue">
+			<h1>7 Breakpoints: 420, 520, 620, 720, 820, 920 &amp; 1020</h1>
+			<span class="r-img" data-alt="My Alt" data-title="My Title" data-src="[{'bp':'420','url':'http://placehold.it/420x150'},{'bp':'520','url':'http://placehold.it/520x150'},{'bp':'620','url':'http://placehold.it/620x150'},{'bp':'720','url':'http://placehold.it/720x150'},{'bp':'820','url':'http://placehold.it/820x150'},{'bp':'920','url':'http://placehold.it/920x150'},{'bp':'1020','url':'http://placehold.it/1020x150',}]"><noscript><img src="http://placehold.it/820x150" alt=""></noscript></span>
+		</div>
+
+		<div class="block red">
+			<h1>2 Breakpoints: 500 &amp; 1000</h1>
+			<span class="r-img" data-alt="My Alt" data-title="My Title" data-src="[{'bp':'500','url':'http://placehold.it/500x150'},{'bp':'1000','url':'http://placehold.it/1000x150',}]"><noscript><img src="http://placehold.it/1000x150" alt=""></noscript></span>
+		</div>
+
+		<!-- BOTTOM JS -->
+		<script src="breakpoint-images.min.js"></script>
+
+	</body>
+</html>
