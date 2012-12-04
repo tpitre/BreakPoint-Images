@@ -1,12 +1,11 @@
 /**
- * Breakpoint Img Src
+ * BreakPoint Images
  * Swap image src based on breakpoint stored in JSON data attribute
  * http://southleft.com
  *
  * Copyright 2012 Terrance Pitre / SouthLeft
  */
 (function(p) {
-	"use strict";
 
 	// Check window width
 	var getWidth = function() {
