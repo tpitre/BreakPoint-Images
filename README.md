@@ -28,11 +28,11 @@ The meat of this script is in the data attributes on the wrapping <code>&lt;span
 <h3>EXAMPLE USAGE:</h3>
 
 <h3>3 Breakpoints: 420, 820, &amp; 1100</h3>
-```&lt;span class="r-img" data-alt="My Alt" data-title="My Title" data-src="[{'bp':'420','url':'http://placehold.it/420x150'},{'bp':'820','url':'http://placehold.it/820x150'},{'bp':'1100','url':'http://placehold.it/1100x150'},]"&gt;&lt;noscript&gt;&lt;img src="http://placehold.it/1100x150" alt=""&gt;&lt;/noscript>&lt;/span&gt;
-```
+```<span class="r-img" data-alt="My Alt" data-title="My Title" data-src="[{'bp':'420','url':'http://placehold.it/420x150'},{'bp':'820','url':'http://placehold.it/820x150'},{'bp':'1100','url':'http://placehold.it/1100x150'},]"><noscript><img src="http://placehold.it/1100x150" alt=""></noscript></span>```
+
 <h3>7 Breakpoints: 420, 520, 620, 720, 820, 920 &amp; 1020</h3>
-```&lt;span class="r-img" data-alt="My Alt" data-title="My Title" data-src="[{'bp':'420','url':'http://placehold.it/420x150'},{'bp':'520','url':'http://placehold.it/520x150'},{'bp':'620','url':'http://placehold.it/620x150'},{'bp':'720','url':'http://placehold.it/720x150'},{'bp':'820','url':'http://placehold.it/820x150'},{'bp':'920','url':'http://placehold.it/920x150'},{'bp':'1020','url':'http://placehold.it/1020x150',}]"&gt;&lt;noscript&gt;&lt;img src="http://placehold.it/820x150" alt=""&gt;&lt;/noscript&gt;&lt;/span&gt;
-```
+```<span class="r-img" data-alt="My Alt" data-title="My Title" data-src="[{'bp':'420','url':'http://placehold.it/420x150'},{'bp':'520','url':'http://placehold.it/520x150'},{'bp':'620','url':'http://placehold.it/620x150'},{'bp':'720','url':'http://placehold.it/720x150'},{'bp':'820','url':'http://placehold.it/820x150'},{'bp':'920','url':'http://placehold.it/920x150'},{'bp':'1020','url':'http://placehold.it/1020x150',}]"><noscript><img src="http://placehold.it/820x150" alt=""></noscript></span>```
+
 <hr>
 
 <h3>STEPS TO USE:</h3>
