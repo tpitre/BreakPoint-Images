@@ -41,8 +41,16 @@
 	p.swapImgs = function() {
 
 		// Get all elements with the class name 'r-img'
-		var rSpan = document.getElementsByClassName('r-img'),
-			dataObj = {};
+  	var rSpan,
+  	    dataObj = {};
+
+  	// Check for getElementsByClassName support
+  	if (document.getElementsByClassName) {
+	  	rSpan = document.getElementsByClassName('r-img');
+  	}
+  	else {
+	  	rSpan = document.querySelectorAll('.r-img');
+  	}
 
 		// Loop through all 'r-img' classes
 		for (var i = 0; i < rSpan.length; i++) {
